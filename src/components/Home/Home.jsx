@@ -1,5 +1,7 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import { homeAnimations } from "./homeAnimations";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const comp = useRef(null);
