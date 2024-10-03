@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import PageTransitionWrapper from './components/PageTransitionWrapper';
