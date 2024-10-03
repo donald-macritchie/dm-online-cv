@@ -1,3 +1,74 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Montserrat];
+    }
+
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+/* Projects Page */
+
+.project-images-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 70%;
+}
+
+.project-images-container img {
+    position: absolute;
+}
+
+.desktop-img {
+    top: 0;
+    z-index: 1;
+}
+
+.laptop-img {
+    width: 50%;
+    top: 49%;
+    left: 50%;
+    z-index: 2;
+}
+
+.tablet-img {
+    width: 20%;
+    top: 50%;
+    left: 6%;
+    z-index: 3;
+}
+
+.phone-img {
+    width: 10%;
+    top: 61%;
+    left: 20%;
+    z-index: 4;
+}
+
+/* Fade animation */
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-out;
+  }
