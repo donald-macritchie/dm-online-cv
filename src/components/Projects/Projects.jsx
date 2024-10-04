@@ -5,6 +5,7 @@ import Memorise from "./Memorise/Memorise";
 import Hangman from './Hangman/Hangman';
 import AlanTuring from "./AlanTuring/AlanTuring";
 import JediAcademy from "./JediAcademy/JediAcademy";
+import Portfolio from "./Portfolio/Portfolio";
 
 
 
@@ -25,6 +26,7 @@ const Projects = () => {
         <Hangman />
         <AlanTuring />
         <JediAcademy />
+        <Portfolio />
       </div>
     );
 };
