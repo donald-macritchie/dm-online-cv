@@ -2,7 +2,7 @@
   "name": "dm-online-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://donald.macritchie.github.io/dm-online-cv/",
+  "homepage": "https://donaldmacritchie.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
