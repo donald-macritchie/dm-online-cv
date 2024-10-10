@@ -49,7 +49,7 @@ const Portfolio = () => {
               </div>
             ) : (
               <img
-                src=""
+                src={dt_portfolio}
                 alt="Project"
                 className="desktop-img mx-auto w-full"
               />
@@ -70,7 +70,7 @@ const Portfolio = () => {
               </h4>
 
               <div>
-                <ul className="flex flex-row gap-6 my-8 justify-center items-center w-full text-md md:text-lg">
+                <ul className="grid grid-cols-3 my-8 justify-center items-center w-full text-md md:text-lg">
                   <li className="flex flex-col items-center text-center my-8">
                     <FaHtml5 size={40} />
                     <p className="mt-4">HTML</p>

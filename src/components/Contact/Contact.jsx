@@ -23,18 +23,21 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          required
           className="my-4 p-2 shadow-xl border-black border-2 rounded-md"
         />
         <input
           type="text"
           placeholder="Email"
           name="email"
+          required
           className="my-4 p-2 shadow-xl border-black border-2 rounded-md"
         />
         <textarea
           name="message"
           rows="10"
           placeholder="Message"
+          required
           className="my-4 p-2 shadow-xl border-black border-2 rounded-md"
         ></textarea>
         <button className="border-2 border-black rounded-md max-w-[200px] w-full flex flex-col justify-center items-center mx-auto my-4 p-3 transition-colors duration-300 ease-in-out hover:bg-orange-300">
